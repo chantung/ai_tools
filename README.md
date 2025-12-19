@@ -15,3 +15,7 @@ python labelme_tools.py --src_dir /path/to/your/labelme/image --dist_dir /path/t
 * `src_dir`: 已经使用labelme标注过的图片路径
 * `dist_dir`：增样后的输出路径
 * `num_aug`：每个图片创建几个增强样本
+
+2. ##### image_augmentor.py
+
+基于albumentations的一些图片变换
